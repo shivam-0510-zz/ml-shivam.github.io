@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gym</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Poppins:wght@500&display=swap"
+	rel="stylesheet">
+
+<body>
+	<header class="header">
+		<div class="left">
+			<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Gold%27s_Gym_logo.svg/1200px-Gold%27s_Gym_logo.svg.png"
+				alt="">
+			<div class="gym">Gold's Gym</div>
+		</div>
+		<div class="mid">
+			<ul class="navbar">
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Fitness Center</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<button class="btn">Call Us Now</button>
+			<button class="btn">Email Us</button>
+
+		</div>
+	</header>
+	<hr class="h">
+	<form action="backend.php" target="_blank">
+		<input type="text" placeholder="Enter your name" class="frm"><br>
+		<input type="text" placeholder="Enter your email-id" class="frm"><br>
+		<input type="text" placeholder="Enter password" class="frm"><br>
+		<input type="text" placeholder="Enter your phone number" class="frm"><br>
+		<button class="btn">Submit</button>
+	</form>
+</body>
+
+</html>
